@@ -2,6 +2,10 @@
 open System
 open Functions
 
+
 EventLog "Hello from F#"
 
+EventLogInfo "This is an info message"
+EventLogWarning "This is a warning message"
+EventLogError "This is an error message"
 
